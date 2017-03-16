@@ -377,7 +377,7 @@ nav ul li span:after{
     position: relative;
 }
 
-section>h3{
+section .section-title{
     display: block;
     flex-direction: column;
 	position: relative;
@@ -393,15 +393,11 @@ section>h3{
 
 }
 
-section>h3{
-	
-}
-
-section>h3 img{
+section .section-title img{
     width: 100%;
 }
 
-section>h3>span{
+section .section-title>span{
 	display: inline-block;
     border: 0px solid;
    	top: 0;
@@ -713,7 +709,6 @@ section .section-content{
 
 #about>div{
 	color: #3a3636;
-    font-size: 32px;
     margin: 0 auto;
     line-height: 1.4;
     padding: 0;
@@ -728,6 +723,7 @@ section .section-content{
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    font-size: 32px;
 }
 
 #about .section-content > p{
@@ -758,7 +754,6 @@ section .section-content{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 5%;
     padding-right: 5%;
@@ -879,16 +874,16 @@ section .section-content{
     #home-dashed-line{
         display: none;
     }
-    section>h3{
+    section .section-title{
         display: flex;
         flex-direction: column;
     }
 
-    section>h3 img{
+    section .section-title img{
         margin: auto;
     }
 
-    section>h3>span{
+    section .section-title>span{
         margin-top: auto;
     }
 
@@ -1049,7 +1044,7 @@ section .section-content{
         padding: 0;
     }
 
-    section>h3{
+    section .section-title{
         display: flex;
         flex-direction: column;
         font-size: 4vw;
@@ -1063,7 +1058,7 @@ section .section-content{
         background-image: none;
     }
 
-    section>h3>span{
+    section .section-title>span{
         height: 1em;
     }
 
